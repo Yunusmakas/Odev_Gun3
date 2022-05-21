@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1308px;
+    height: 839px;
+    background: #F4F5FA;
+    box-shadow: 0px 47px 57px -26px rgba(83, 83, 145, 0.14);
+    border-radius: 23px;
+    margin-left: 146px;
+    margin-top: 180px;
+    padding-top: 80px;
+}
+
+.hug{
+    width: 713px;
+    height: 158px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    margin:auto;
+}
+
+.container h2{
+    width: 579px;
+    height: 80px;
+    font-family:'Merriweather';
+    font-size: 32px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.container h3{
+    width: 713px;
+    height: 54px;    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+}
+
+.triContainer{
+    padding: 0px;
+    gap: 40px;    
+    width: 1007px;
+    height: 350px;
+    margin: auto;
+    margin-top: 56px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+}
+
+/* 3'lü yapının ilk kutusu */
+.triContainer .box1{
+    width: 285px;
+    height: 326px;
+    background: #FFFBEC;
+    border-radius: 14px;
+    margin-right: 24px;
+}
+
+.box1 .back{
+    width: 285px;
+    height: 326px;
+    background: #FFFFFF;
+    margin: 24px;
+    box-shadow: 0px 47px 57px -26px rgba(83, 83, 145, 0.14);
+    border-radius: 14px;
+}
+
+.back .ice{
+    margin:40px 40px 16px 40px;
+    width: 43.11px;
+    height: 30px;
+}
+
+.back h3{
+    width: 141px;
+    height: 27px;
+    font-weight: 600;
+    margin-left: 40px;
+}
+
+.back h2{
+    width: 109px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    margin-left: 40px;
+    margin-top: 4px;
+    height: 40px;
+}
+
+.month{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+    width: 124px;
+    height: 36px
+}
+
+.month h4{
+    width: 65px;
+    height: 36px;    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    margin-left: 40px;
+    color: #171435;
+}
+
+.month h5{
+    width: 55px;
+    height: 21px;    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #171435;
+}
+
+.box1 button{
+    width: 185px;
+    height: 56px;
+    background: #F4F5FA;
+    border: 1px solid #F0F0F6;
+    box-shadow: 0px 4px 0px #E7E7FB;
+    border-radius: 41px;
+    margin: 40.5px 0px 0px 40px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #171435;
+}
+
+/* 2. Bölüm telia*/
+.triContainer .box2{
+    width: 285px;
+    height: 326px;
+    background: #F9ECFF;
+    border-radius: 14px;
+    margin-right: 24px;
+}
+
+.box2 .back{
+    width: 285px;
+    height: 326px;
+    background: #FFFFFF;
+    margin: 24px;
+    box-shadow: 0px 47px 57px -26px rgba(83, 83, 145, 0.14);
+    border-radius: 23px;
+}
+
+.back .telia{
+    margin:40px 40px 16px 40px;
+    width: 76px;
+    height: 30px;
+}
+
+.box2 .back h3{
+    width: 146px;
+    height: 27px;
+    font-weight: 600;
+    margin-left: 40px;
+}
+
+.box2 .back h2{
+    width: 209px;
+    height: 40px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    margin-left: 40px;
+    margin-top: 4px;    
+}
+
+.month{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+    width: 124px;
+    height: 36px
+}
+
+.telia .month h4{
+    width: 65px;
+    height: 36px;    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    margin-left: 40px;
+    color: #171435;
+}
+
+.telia .month h5{
+    width: 55px;
+    height: 21px;    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #171435;
+}
+
+.box2 button{
+    width: 185px;
+    height: 56px;
+    background: #F4F5FA;
+    border: 1px solid #F0F0F6;
+    box-shadow: 0px 4px 0px #E7E7FB;
+    border-radius: 41px;
+    margin: 40.5px 0px 0px 40px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #171435;
+}
+
+/* 3. Bölüm telenor*/
+.triContainer .box3{
+    width: 285px;
+    height: 326px;   
+    background: #ECEEFF;
+    border-radius: 14px;
+}
+
+.box3 .back{
+    width: 285px;
+    height: 326px;
+    background: #FFFFFF;
+    margin: 24px;
+    box-shadow: 0px 47px 57px -26px rgba(83, 83, 145, 0.14);
+    border-radius: 14px;
+}
+
+.back .telenor{
+    margin:40px 40px 16px 40px;
+    width: 76px;
+    height: 30px;
+}
+
+.box3 .back h3{
+    width: 157px;
+    height: 27px;
+    font-weight: 600;
+    margin-left: 40px;
+}
+
+.box3 .back h2{
+    width: 209px;
+    height: 40px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    margin-left: 40px;
+    margin-top: 4px;
+    text-align: left;    
+}
+
+.box3 button{
+    width: 185px;
+    height: 56px;
+    background: #F4F5FA;
+    border: 1px solid #F0F0F6;
+    box-shadow: 0px 4px 0px #E7E7FB;
+    border-radius: 41px;
+    margin: 40.5px 0px 0px 40px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #171435;
+}
+
+.see button{
+    display: flex;   
+    align-items: center;
+    justify-content: center;
+    margin: 70px auto;
+    width: 214px;
+    height: 56px;
+    background: #171435;
+    border-radius: 41px;
+    color: white;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+}
